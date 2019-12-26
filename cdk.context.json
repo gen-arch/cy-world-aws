@@ -1,3 +1,16 @@
 {
-  "@aws-cdk/core:enableStackNameDuplicates": "true"
+  "@aws-cdk/core:enableStackNameDuplicates": "true",
+  "availability-zones:account=681514512350:region=ap-northeast-1": [
+    "ap-northeast-1a",
+    "ap-northeast-1c",
+    "ap-northeast-1d"
+  ],
+  "hosted-zone:account=681514512350:domainName=cy-world.com:region=ap-northeast-1": {
+    "Id": "/hostedzone/Z1DOX8R1L961LP",
+    "Name": "cy-world.com."
+  },
+  "hosted-zone:account=681514512350:domainName=cy-world.com:privateZone=false:region=ap-northeast-1": {
+    "Id": "/hostedzone/Z1DOX8R1L961LP",
+    "Name": "cy-world.com."
+  }
 }
